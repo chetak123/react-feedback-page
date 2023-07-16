@@ -1,0 +1,40 @@
+.feedback-container {
+    margin-top: 15px;
+}
+
+.feedback-paper {
+    max-width: 100%;
+    background: lightgray;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+.feedback-content {
+    display: flex;
+    /* flex-direction: column; */
+    /* Change flex direction to column */
+}
+
+.icon-container {
+    color: green;
+    cursor: pointer;
+    /* margin-top: auto; */
+    /* Add this line to move the icon to the bottom */
+}
+
+.icon-container.grey {
+    color: grey;
+}
+
+.thumbs-count {
+    margin-left: 5px;
+}
+
+.feedback-title {
+    font-size: 1rem;
+    margin: 5px;
+    white-space: pre-line;
+    word-wrap: break-word;
+    text-align: left;
+}
